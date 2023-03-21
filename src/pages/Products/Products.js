@@ -3,11 +3,10 @@ import "./Products.css";
 function Products() {
   return (
     <>
+      <section className="hero-section">
       <h1 className="main-article">
       Check out our portfolio page to see examples of our visually stunning and effective websites. We take pride in delivering custom solutions that meet our clients' specific goals and accurately reflect their brand. Our expertise in creating websites that are optimized for search engines and provide a seamless user experience has also led to increased traffic and revenue for our clients. Contact us today to discuss how we can help grow your business with a website that truly stands out.
       </h1 >
-      <section className="hero-section">
-        
         <div className="card-container">
           <div className="card">
             <div>

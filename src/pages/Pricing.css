@@ -1,17 +1,18 @@
 .pricing__section {
-    padding: 100px 0 160px;
+    padding: 10px 0 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background: #fafafa;
     background: linear-gradient(to top, #76d5f5, #c356c7);
+
   }
   
   .pricing__container-card {
     background: linear-gradient(45deg, #0660e9 0%, #276afb 100%);
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
-    width: 280px;
-    height: 500px;
+    width: 350px;
+    height: 600px;
     text-decoration: none;
     border-radius: 4px;
   }
@@ -45,8 +46,14 @@
   }
   
   .pricing__heading {
-    color: #1c2237;
+    color: white;
     margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 140px;
+    text-shadow: 2px 2px 4px rgba(207, 78, 164, 0.5);
   }
   
   .pricing__container-cardInfo {
@@ -121,3 +128,52 @@
       transform: none;
     }
   }
+
+
+
+/* .faq-cont{
+  background: linear-gradient(to bottom, #76d5f5, #76d5f5);
+}  
+.faq-title{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.questions {
+  display: flex;
+
+} */
+
+.faq-cont {
+  background: linear-gradient(to bottom, #76d5f5, #8ee1fd);
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: rgb(82, 81, 81);
+}
+
+.faq-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.questions {
+  margin-bottom: 20px;
+}
+
+.question-title {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.question-desc {
+  font-size: 16px;
+  line-height: 1.5;
+}

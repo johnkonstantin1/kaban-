@@ -1,6 +1,10 @@
+body {
+  background: linear-gradient(to bottom, #3e95b3, #c356c7);
+}
+
 .hero-section-solo {
-    height: 100vh;
-    background: rgb(47, 79, 79);
+    height: 100%;
+    background: linear-gradient(to top, #3e95b3, #c356c7);
     margin-bottom: 10%;
 }
 
@@ -13,6 +17,7 @@
     margin-top: -50px; 
     /* padding-top: 10px;  */
     /* padding-bottom: 50px;  */
+    overflow: hidden;
 }
 
 .content-solo {
@@ -24,13 +29,23 @@
     padding-top: 50px; 
     /* paddingBottom: 50px;  */
     /* margin-bottom: 50px; */
+    overflow: hidden;
+    color: white;
 }
 
 .content-subhead {
     border-radius: 10;
     background-color: aliceblue;
-}
+    color: white;
+  }
 
+  .post-meta{
+    color: black;
+  }
+
+.post-description{
+  color: black;
+}
 /* CSS */
 .button-48 {
   appearance: none;

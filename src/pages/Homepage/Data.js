@@ -8,7 +8,7 @@ export const homeObjOne = {
       "Welcome to Landing Devils! Our website is designed to showcase our expertise in web development and help you understand how we can help you create a stunning and effective website for your business.",
     buttonLabel: "Go to our portfolio",
     imgStart: "",
-    img: "images/house1.png",
+    img: "images/c1.png",
     alt: "3D model",
     showButton: true,
   };
@@ -36,7 +36,7 @@ export const homeObjOne = {
     headline: "We can find an approach to any client from anywhere in the world ",
     description: "Take a look at our portfolio to see some of the amazing websites we have created for our clients. Ready to get started? Contact us today and let's discuss how we can help you grow your business with a website that truly stands out.",
     imgStart: "start",
-    img: "images/earth.png",
+    img: "images/g1.png",
     alt: "Vault",
     showButton: false,
   };
@@ -51,7 +51,7 @@ export const homeObjOne = {
       "If we take the job we will do it at the highest level. Our clients have never left us unsatisfied ",
     // buttonLabel: "Sign Up Now",
     imgStart: "start",
-    img: "images/sushi.png",
+    img: "images/earth.png",
     alt: "Vault",
     showButton: false,
   };
