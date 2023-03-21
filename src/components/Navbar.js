@@ -119,6 +119,15 @@ function Navbar() {
                   Blog
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  to="/pricing"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  Pricing
+                </Link>
+              </li>
               <li className="nav-btn">
                 {button ? (
                   <Link to="/contacts" className="btn-link">

@@ -1,4 +1,4 @@
-import {React, useState} from "react"
+import { React, useState } from "react";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
@@ -9,6 +9,7 @@ import Products from "./pages/Products/Products";
 import Contacts from "./pages/Contacts/Contacts";
 import BlogDetails from "./pages/Blog/BlogDetails";
 import BlogList from "./pages/Blog/BlogList";
+import Pricing from "./pages/Pricing";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/blogDetails/:id" element={<BlogDetails />} />
           <Route path="/blogList" element={<BlogList />} />
+          <Route path="/pricing" element={<Pricing />} />
         </Routes>
         <Footer />
       </Router>

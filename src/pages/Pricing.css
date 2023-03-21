@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     background: #fafafa;
+    background: linear-gradient(to top, #76d5f5, #c356c7);
   }
   
   .pricing__container-card {
